@@ -1,0 +1,5 @@
+4 data types we learned is string,boolean,intergers,float
+A code repository is a digital storage space where software develop stores.
+A computer is a input because it sends data and command from the user into the computer
+A variable is a value,and a characteristic that can change or be changed
+1 variable naming rule we learned in class is python
