@@ -29,5 +29,11 @@ print("good" + "bye")
 num1 = input("type in a number: ") #input alaways returns a string
 print(4 + int(num1))
 
+#float() A function that will change any datatype
+# passed into it, into float/ decimal number
+
+num2 = input("type in a number: ")
+# input alaways returns a string
+print(9 + float(num2))
 
 
