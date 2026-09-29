@@ -25,4 +25,4 @@ print(Gpa > 85 and Recommendation == True)
 parentContact1 = False
 parentContact2 = True
 
-print(prarentContact1 == True or parentContact2 == True)
+print(parentContact1 == True or parentContact2 == True)

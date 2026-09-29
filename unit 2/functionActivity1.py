@@ -8,7 +8,8 @@ num1 = input("type in a number:  ")
 print(int(num1) > 85)
 
 num2 = input("type in a number:  ")
-print(int(140) + 360)  
+print(int(num2) + 360)  
 
-num3 = input("type in a number:  ")
-print(int(num3) == Boyslatin)
+num3 = input("")
+print(int(num3) == "Boyslatin")
+
