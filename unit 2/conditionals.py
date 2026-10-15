@@ -26,7 +26,7 @@ def college():
     if grade > 90:
         templeU()
     else:
-        ccp():
+        ccp()
 
     def templeU():
         print("congrats you meet the requirement for temple u")
@@ -66,7 +66,7 @@ def calculate_subtract():
     print(num1 - num2)
     print("program has ended. ")
 
- def calculate_multiply():
+def calculate_multiply():
     print("program has started: please type in 2 numbers to multiply ")
     num1 = int(input())
     num2 = int(input())
@@ -82,27 +82,30 @@ def calculate_division():
     print("program has ended. ")
 
 def maincalculator():
-    selection = input()
+    selection = int(input("please select an operation (1-4): "))
     if(selection == 1):
         calculate_add()
-    elif selection = 2:
+    elif selection == 2:
         calculate_subtract()
-    elif selection= 3:
+    elif selection == 3:
          calculate_multiply()
-    elif selection= 4:
+    elif selection== 4:
          calculate_divide()
     else:
         print("sorry I dont undertsand your selection")
 
-maincalculator()
+# maincalculator()
 
 
 def get_ticket_price():
+    age = int(input("please type in your age: "))
     if age <= 7:
-        return 8.00
+        print(8.00)
     elif age <= 20:
-        return 12.00
-    elif age <= 60
-        return 20.00
+        print (12.00)
+    elif age <= 60:
+        print(20.00)
     else:
-        return 0.00
+        print(0.00)
+
+get_ticket_price()
