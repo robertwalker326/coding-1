@@ -35,3 +35,75 @@ def guessingGame():
     print("congrats! you guessed correctly. game over ")
 
 guessingame()
+
+
+
+
+
+# Question 1
+# password reset function. Your function should take in a 
+# user password as an input.within the function there should be a 
+# variable that contains the correct password.
+# the user should be able to attempt to enter the password 4 times. 
+# On the fourth attempt of getting the password inccorect, 
+# it should print out a message telling the user that 
+# their account has been locked. If the user gets the password 
+# correct it should print out a message telling them 
+# they can access their account.
+
+
+
+# Question 2
+# Create a shots made-to-attempts function. your function should prompt the user to enter if they
+# made or missed a shot. If they enter made, it will give the user 2 points. else if they miss it 
+# will not give them points. Every shot must be recorded. If your user enters the letter "q", it 
+# will show how many points they made as well as the number of attempts they've made
+
+
+def password_reset():
+    correct_password = "SecretPassword123"
+    max_attempts = 4
+    attempts = 0
+
+    print("welcome to password reset")
+    print("please type in a number")
+
+
+    for in range(attempts):
+            user_input = input("Enter your password: ")
+    user_input == correct_password:
+    print("You can access your account.")
+    return
+
+    
+ for attempt in range(max_attempts):
+        user_input = input("Enter your password: ")
+
+        if user_input == correct_password:
+            print("You can access your account.")
+             return
+
+        print("Your account has been locked.")
+
+
+
+
+def shots_made_to_attempts():
+        points = 0
+        attempts = 0
+            
+while True:
+        result= input("Enter 'made' or 'missed' (or 'q' to finish): ").strip().lower()
+        
+        if result == "q":
+            print(f"Points: {points}; attempts: {attempts}")
+            break
+            
+            
+while True:
+        if result in ("made", "missed"):
+            attempts += 1
+            if result == "made":
+                points += 2
+        else:
+            print("Please enter 'made', 'missed', or 'q'.")
