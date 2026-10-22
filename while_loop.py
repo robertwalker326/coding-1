@@ -107,3 +107,52 @@ while True:
                 points += 2
         else:
             print("Please enter 'made', 'missed', or 'q'.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        def vending_machine():
+    # Mapping the vending machine codes to the respective items
+            menu =  {
+        "B3": "Nacho Chips",
+        "G4": "BBQ Chips",
+        "G7": "Plain Chips",
+        "D3": "Water",
+        "G5": "Cola Soda",
+        
+        
+    print("--- Vending Machine Menu ---")
+
+            for code, item in menu.items():
+    
+    print(f"[{code}] {item}")
+
+    while True :
+        
+        
+        user_input = input("Enter an item code, or 'q' to quit: ").strip()
+
+        if user_input.lower() == "q"
+        "else"
+        print("Goodbye!")
+        break
+        "else"
+    if user_input in menu:
+        print(f"Dispensing: {menu[user_input]}")
+    else:
+
+ print("Invalid code. Please try again.")
+
+
+        if __name__ == "__main__":
+            def vending_machine()
