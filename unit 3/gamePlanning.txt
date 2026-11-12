@@ -1,0 +1,9 @@
+# My game is a sport made game where you play basketball and compete against other teams.Your goal is to score the most points and when the game  to become the best team.Build your skills and take over the court to become a champion.
+
+
+
+# Use the arrow keys or joystick to move your player and around the basketball court.press the space to shoot on keyboard and square on the joystick.Use the controls to steal and block shots from the other team.
+
+
+#Attributes: Attributes includes color,size and position.Methods include shoot,pass and bounce.
+Player: Attributes includes speed,height and score.Method includes jump,run,and block
