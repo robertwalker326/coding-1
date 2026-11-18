@@ -7,3 +7,5 @@
 
 #Attributes: Attributes includes color,size and position.Methods include shoot,pass and bounce.
 Player: Attributes includes speed,height and score.Method includes jump,run,and block
+
+Objects that will be in the game is basketballs,court,player,scoreboard

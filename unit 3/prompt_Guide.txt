@@ -1,0 +1,14 @@
+ 1.My game is a game where you go against the people all over the world and also you can play with a friend so one person can use the arrows and the other person can use the keys .My game is a basketball game and to win you have to make more 
+ shots then the other team.My game is challenging because every shot your metter change like for an example it can go low or high.
+
+ 2. The game does not begin straight a way it start with a menu that says play online mode,2v2,and playground 1v1.
+
+ 3. The objects in my game is,basketballs,player,court,shotclock
+
+ 4. To play ypu can use your arrows or keybinds it will also be a setting where you can change your keybinds. 
+ The buttons would be w to go forward, d to go right,a to go left,and z togo back and to shoot you use the space button.
+
+ 5.The enemy would be whoever the person you are going against.
+
+ 6. if you win your level will go up and you will play against people who are your rank.If you loose your rep will go down by 0.40.
+
